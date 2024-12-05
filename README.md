@@ -17,7 +17,7 @@ Players guess letters of a hidden word, and the game evaluates:
 Custom quantum circuits adjust measurement probabilities to provide feedback, while Grover’s Algorithm amplifies the likelihood of finding correct letters.
 
 ## Explore the Project
-To dive deeper into the quantum mechanics, code implementation, and educational insights, check out the [Jupyter Notebook](link).
+To dive deeper into the quantum mechanics, code implementation, and educational insights, check out the [Jupyter Notebook]([link](https://github.com/matttavares9/quantum-wordle/blob/main/quantum_wordle_demo.ipynb)).
 
 ## Technologies Used
 - Python
