@@ -29,8 +29,9 @@ This project gamifies quantum computing, offering a hands-on way to learn concep
 
 ## Get Started
 1. Clone the repository: `git clone <repo-link>`
-2. Navigate to the project directory: `cd quantum-wordle`
-3. Open the Jupyter Notebook: `jupyter notebook quantum_wordle_demo.ipynb`
-4. Play the game: `python main.py`
+2. Install [Qiskit](https://docs.quantum.ibm.com/guides/install-qiskit): `pip install qiskit`
+3. Navigate to the project directory: `cd quantum-wordle`
+4. Open the Jupyter Notebook: `jupyter notebook quantum_wordle_demo.ipynb`
+5. Play the game: `python main.py`
 
 Enjoy exploring quantum computing through the Quantum Wordle game!
