@@ -14,8 +14,8 @@ Players guess letters of a hidden word, and the quantum circuits evaluate:
 |---------------------------------|--------------------|----------------------|
 | **Correct letters, correct positions** | ~50% chance correct letter is measured | `A` (uppercase)       |
 |                                 | ~50% chance another letter in the word is measured | `b` (lowercase)       |
-| **Correct letters, incorrect positions** | ~50% chance letter is measured         | `b` (lowercase)       |
-|                                 | ~25% chance letter in the word is measured | `A` (uppercase)       |
+| **Correct letters, incorrect positions** | ~50% chance letter is measured         | `c` (lowercase)       |
+|                                 | ~25% chance letter in the word is measured | `A` (uppercase) or `b` (lowercase)      |
 |                                 | ~25% chance a random letter is measured    | `x` (lowercase)       |
 | **Letters not in the word**     | Equal chance for any random letter         | `x` (lowercase)       |
 
