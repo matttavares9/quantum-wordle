@@ -41,4 +41,4 @@ This project gamifies quantum computing, offering a hands-on way to learn concep
 4. Open the Jupyter Notebook: `jupyter notebook quantum_wordle_demo.ipynb`
 5. Play the game: `python main.py`
 
-Enjoy exploring quantum computing through the Quantum Wordle game!
+Enjoy your quantum gaming experience!
