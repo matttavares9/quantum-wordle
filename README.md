@@ -10,15 +10,15 @@
 ## How It Works
 Players guess letters of a hidden word, and the quantum circuits evaluate:
 
-1. Correct letters in the *correct* positions.
-   - ~*50\%* chance correct letter is meeasured, revealed with an *uppercase* letter.
-   - ~*50\%* chance **another** letter in the *hidden word* is measured, revealed with *lowercase* letter.
-3. Correct letters in *incorrect* positions.
-   - ~*50\%* chance letter is measured, revealed with a *lowercase* letter.
-   - ~*25\%* chance letter in word is measured, revealed with an *uppercase* letter.
-   - ~*25\%* chance a random letter is measured, revealed with a *lowercase* letter.
-5. Letters not present in the hidden word.
-   - A random letter of equal probability is measured, revealed with a *lowercase* letter.
+| Feedback Type                   | Probability        | Example Output       |
+|---------------------------------|--------------------|----------------------|
+| **Correct letters, correct positions** | ~50% chance correct letter is measured | `A` (uppercase)       |
+|                                 | ~50% chance another letter in the word is measured | `a` (lowercase)       |
+| **Correct letters, incorrect positions** | ~50% chance letter is measured         | `a` (lowercase)       |
+|                                 | ~25% chance letter in the word is measured | `A` (uppercase)       |
+|                                 | ~25% chance a random letter is measured    | `a` (lowercase)       |
+| **Letters not in the word**     | Equal chance for any random letter         | `x` (lowercase)       |
+
 
 Custom quantum circuits adjust measurement probabilities to provide feedback, while Grover’s Algorithm amplifies the likelihood of finding correct letters.
 
