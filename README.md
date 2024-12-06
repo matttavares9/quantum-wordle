@@ -8,7 +8,8 @@
 - Demonstrates quantum principles like **superposition** and **measurement probabilities**.
 
 ## How It Works
-Players guess letters of a hidden word, and the quantum circuits evaluate:
+Players guess letters of a hidden word, and custom quantum circuits analyze their guesses to provide probabilistic feedback.
+
 
 | Feedback Type                   | Probability        | Example Output       |
 |---------------------------------|--------------------|----------------------|
